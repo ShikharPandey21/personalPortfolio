@@ -1,0 +1,259 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: cursive;
+}
+#navbar{
+    display: flex;
+    height: 40px;
+    width:100vw;
+    align-items: center;
+    color: #272D2D;
+    background-color: #FFC09F;
+    justify-content: space-between;
+}
+a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: #272D2D;
+    font-weight: bold;
+}
+.abt{
+    text-align: center;
+    font-size: 28px;
+    color: #272D2D;
+    background-color: whitesmoke;
+    text-decoration: underline;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+#home{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    height:80vh;
+    width: 100vw;
+}
+#profile{
+    height:300px;
+    border-radius: 50%;
+    margin-top: 55px;
+    margin-left: 155px;
+}
+#text{
+    width: 700px;
+    text-align: center;
+    margin-bottom: 55px;
+    font-family: cursive;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+#about{
+    display: flex;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: space-evenly;
+    height:80vh;
+    width: 100vw;
+}
+#qualification{
+    display: grid;
+    justify-content: center;
+    border-radius: 20px;
+    height:450px;
+    width:350px;
+    box-shadow: 5px 5px 10px gray;
+}
+#img_qlfctn{
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 60px;
+    height: 200px;
+    width:200px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+}
+#text_qlfctn{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 60px;
+}
+#qualification:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*hobbies*/
+#hobbies{
+    display: grid;
+    justify-content: center;
+    border-radius: 20px;
+    height:450px;
+    width:350px;    
+    box-shadow: 5px 5px 10px gray;
+}
+#img_hbbs{
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 60px;
+    height: 200px;
+    width:200px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+}
+#text_hbbs{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 60px;
+}
+#hobbies:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*skill*/
+#skills{
+    border-radius: 20px;
+    height:450px;
+    width:350px;
+    box-shadow: 5px 5px 10px gray;
+}
+#img_skl{
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 75px;
+    height: 200px;
+    width:200px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+}
+#text_skl{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 60px;
+}
+#skills:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+/*projects*/
+#projects{
+    display: flex;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: space-evenly;
+    height:80vh;
+    width: 100vw;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+#todo{
+    display: grid;
+    justify-content: center;
+    border-radius: 20px;
+    height:500px;
+    width:350px;    
+    box-shadow: 5px 5px 10px gray;
+}
+#todo_img{
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 60px;
+    height: 200px;
+    width:200px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+}
+#todo_text{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 60px;
+}
+#todo:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+#tip{
+    display: grid;
+    justify-content: center;
+    border-radius: 20px;
+    height:500px;
+    width:350px;    
+    box-shadow: 5px 5px 10px gray;
+}
+#tip_img{
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 60px;
+    height: 200px;
+    width:200px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+}
+#tip_text{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 60px;
+}
+#tip:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+#weather{
+    display: grid;
+    justify-content: center;
+    border-radius: 20px;
+    height:500px;
+    width:350px;    
+    box-shadow: 5px 5px 10px gray;
+}
+#weather_img{
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 70px;
+    height: 200px;
+    width:200px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+}
+#weather_text{
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 60px; 
+}
+#weather:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+#connect{
+    text-align: center;
+    background-color: #FFC09F;
+    text-decoration: underline;
+}
+footer{
+    display: flex;
+    background-color: #FFC09F;
+    height: 50px;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    font-size: 25px;
+}
