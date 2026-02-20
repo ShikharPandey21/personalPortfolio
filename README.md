@@ -1,1 +1,1 @@
-# this project was my third project in this project i learened how to use API in my project
+# This project was my third project. In this project, I learned how to use an API in my project
